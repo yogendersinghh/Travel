@@ -1,0 +1,114 @@
+.checkin-checkout-container {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #6c707a;
+  border-left: 1px solid #6c707a;
+}
+
+.date--range {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12.8px;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+
+.content p {
+  margin: 0;
+}
+
+.checkout-wrapper {
+  position: relative;
+}
+
+.checkout-wrapper .date-modal {
+  position: absolute;
+}
+
+.heading--level {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  margin-bottom: 12px;
+}
+
+.heading--level p {
+  margin: 0;
+}
+
+.heading--level .title {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.heading--level .title:nth-child(2) {
+  color: #6c707a;
+  font-weight: 400;
+}
+
+.date-modal {
+  padding: 0 1.6rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+/* material ui  */
+.MuiDateRangeCalendar-monthContainer .MuiIconButton-edgeEnd {
+  display: none;
+}
+
+.css-1v8yqdb-MuiPickersArrowSwitcher-root {
+  justify-content: center;
+}
+
+.MuiIconButton-edgeStart {
+  position: relative;
+  right: -77px;
+}
+
+.css-knqc4i-MuiDialogActions-root > :not(style) ~ :not(style),
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  display: none;
+}
+
+.css-10wpov9-MuiTypography-root {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.MuiDayCalendar-header {
+  background-color: rgba(243, 244, 245, 1);
+  border-radius: 10px;
+}
+
+.css-jef1b6-MuiDateRangeCalendar-container:not(:last-of-type) {
+  border-right: none;
+}
+
+.css-e47596-MuiDateRangeCalendar-root {
+  gap: 16px;
+}
+
+.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.css-umotzx-MuiList-root .MuiListItem-root {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.css-8m5rrr-MuiButtonBase-root-MuiChip-root {
+  background-color: transparent;
+  border: 1px solid #6c707a;
+}

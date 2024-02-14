@@ -1,0 +1,63 @@
+.search--card {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 468px;
+  top: calc(100% + 8px);
+  border-radius: 25px;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.card-heading {
+  padding-left: 5.6rem;
+  padding-right: 2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  background-color: rgba(243, 244, 245, 1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-heading h2 {
+  line-height: 0rem;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.search--card .list {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.search--card .list-item {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.7rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.search--card .list-item:hover {
+  background-color: rgba(243, 244, 245, 1);
+}
+
+.search--card .list-item span svg {
+  margin-right: 1.6rem;
+  color: rgba(137, 200, 232, 0.5);
+}
+
+.search--card .city--name span:nth-child(1) {
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
+.search--card .city--name span:nth-child(2) {
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: rgba(108, 112, 122, 1);
+}
